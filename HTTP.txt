@@ -1,0 +1,9 @@
+HTTP/1.1
+It uses the works on the textual format.There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	
+It uses requests resource Inlining for use getting multiple pages. It compresses data by itself.
+
+HTTP/2 
+HTTP/2 was developed over the SPDY protocol. 
+HTTP/2 works on the binary framing layer instead of textual that converts all the messages in binary format. 
+It works on fully multiplexed that is one TCP connection is used for multiple requests. HTTP/2 uses HPACK which is used to split data from header. 
+It compresses the header. The server sends all the other files like CSS & JS without the request of the client using the PUSH frame.
